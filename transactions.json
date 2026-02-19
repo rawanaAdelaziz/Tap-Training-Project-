@@ -1,0 +1,909 @@
+[
+  {
+    "transaction_id": "chg_TS03A0020261957Ke071801513",
+    "customer_email": "guest@test.com",
+    "payment_method": "CARD",
+    "created_at": "2026-01-18T19:57:07.321Z",
+    "email": "nada@gmail.com",
+    "transaction_url": null,
+    "updated_at": "2026-02-14T17:59:02.988Z"
+  },
+  {
+    "transaction_id": "chg_TS05A5220262002Qt1c1801552",
+    "customer_email": "guest@test.com",
+    "amount": "80",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-18T20:02:58.249Z"
+  },
+  {
+    "transaction_id": "chg_TS05A1920262005Hx4r1801281",
+    "customer_email": "guest@test.com",
+    "amount": "70",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-18T20:05:45.848Z"
+  },
+  {
+    "transaction_id": "chg_TS02A3620262013i4J81801620",
+    "customer_email": "guest@test.com",
+    "amount": "70",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-18T20:13:40.814Z"
+  },
+  {
+    "transaction_id": "chg_TS02A0020262046x4TF1801469",
+    "customer_email": "guest@test.com",
+    "amount": "800",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-18T20:46:07.657Z"
+  },
+  {
+    "transaction_id": "chg_TS03A2120262359j1M11801782",
+    "customer_email": "mo@gmail.com",
+    "amount": "10",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-18T23:59:25.758Z"
+  },
+  {
+    "transaction_id": "chg_TS04A2120260044g8YX1901516",
+    "customer_email": "yo@test.com",
+    "amount": "66",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T00:44:25.630Z"
+  },
+  {
+    "transaction_id": "chg_TS07A2620260110Oo851901015",
+    "customer_email": "guest@test.com",
+    "amount": "700",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T01:10:30.054Z"
+  },
+  {
+    "transaction_id": "chg_TS05A5020260522Ls011901774",
+    "customer_email": "guest@test.com",
+    "amount": "44",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T05:22:55.847Z"
+  },
+  {
+    "transaction_id": "chg_TS05A5920260525Hu8c1901854",
+    "customer_email": "guest@test.com",
+    "amount": "70",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T05:26:06.957Z"
+  },
+  {
+    "transaction_id": "chg_TS03A4620260715w0YO1901331",
+    "customer_email": "guest@test.com",
+    "amount": "20",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T07:15:51.264Z"
+  },
+  {
+    "transaction_id": "chg_TS01A4120260721q5P11901321",
+    "customer_email": "test@gmail.com",
+    "amount": "2",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T07:21:45.939Z"
+  },
+  {
+    "transaction_id": "chg_TS04A4020260742Fj481901056",
+    "customer_email": "tkony@hjkh.cc",
+    "amount": "1",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T07:42:45.245Z"
+  },
+  {
+    "transaction_id": "chg_TS07A2120261110t1H71901237",
+    "customer_email": "guest@test.com",
+    "amount": "40",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T11:10:25.341Z"
+  },
+  {
+    "transaction_id": "chg_TS05A2520261126l4FP1901276",
+    "customer_email": "guest@test.com",
+    "amount": "777",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T11:26:30.014Z"
+  },
+  {
+    "transaction_id": "chg_TS07A5420261139c5BD1901168",
+    "customer_email": "guest@test.com",
+    "amount": "666",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T11:39:58.997Z"
+  },
+  {
+    "transaction_id": "chg_TS04A3820261203Ro811901741",
+    "customer_email": "rana@gmail.com",
+    "amount": "505",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T12:03:43.449Z"
+  },
+  {
+    "transaction_id": "chg_TS01A2220261313k6PL1901402",
+    "customer_email": "yo@gmail.com",
+    "amount": "800",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T13:13:27.739Z"
+  },
+  {
+    "transaction_id": "chg_TS06A1520261325Bk561901446",
+    "customer_email": "roro@gmail.con",
+    "amount": "888",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T13:25:20.710Z"
+  },
+  {
+    "transaction_id": "chg_TS04A3320262033Nl481901237",
+    "customer_email": "guest@test.com",
+    "amount": "600",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-19T20:33:37.145Z"
+  },
+  {
+    "amount": "10",
+    "currency": "KWD",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-21T18:53:56.482Z"
+  },
+  {
+    "transaction_id": "chg_TS03A1020262240Xg702101030",
+    "customer_email": "roro@gmail",
+    "amount": "20",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-21T22:40:20.301Z"
+  },
+  {
+    "payment_method": "CARD",
+    "amount": 10,
+    "currency": "KWD",
+    "created_at": "2026-01-22T10:54:25.904Z"
+  },
+  {
+    "transaction_id": "chg_TS07A5120261614Rs4q2201131",
+    "customer_email": "guest@test.com",
+    "amount": "600",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T16:14:53.663Z"
+  },
+  {
+    "transaction_id": "chg_TS01A1920261632Bk602201783",
+    "customer_email": "guest@test.com",
+    "amount": "900",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T16:32:21.911Z"
+  },
+  {
+    "transaction_id": "chg_TS07A1720261636o5H82201581",
+    "customer_email": "guest@test.com",
+    "amount": "90",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T16:36:20.066Z"
+  },
+  {
+    "transaction_id": "chg_TS03A3420261638Ha5h2201931",
+    "customer_email": "guest@test.com",
+    "amount": "90",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T16:38:37.677Z"
+  },
+  {
+    "transaction_id": "chg_TS01A2020261738Lm752201916",
+    "customer_email": "guest@test.com",
+    "amount": "99",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T17:38:23.457Z"
+  },
+  {
+    "transaction_id": "chg_TS04A1020261759Ks6o2201954",
+    "customer_email": "guest@test.com",
+    "amount": "66",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T17:59:13.751Z"
+  },
+  {
+    "transaction_id": "chg_TS03A1520262359r1B82201025",
+    "customer_email": "guest@test.com",
+    "amount": "49",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-22T23:59:17.299Z"
+  },
+  {
+    "transaction_id": "chg_TS04A1520262125c4NL2301503",
+    "customer_email": "guest@test.com",
+    "amount": "60",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-23T21:25:17.984Z"
+  },
+  {
+    "transaction_id": "chg_TS07A3520262142Fw4p2301324",
+    "customer_email": "guest@test.com",
+    "amount": "500",
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-23T21:42:40.880Z"
+  },
+  {
+    "transaction_id": "chg_TS05A5820260005k7M12401868",
+    "customer_email": "guest@test.com",
+    "amount": "800",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T00:06:02.453Z"
+  },
+  {
+    "transaction_id": "chg_TS04A1020260032r4ZO2401034",
+    "customer_email": "guest@test.com",
+    "amount": "70",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T00:32:12.676Z"
+  },
+  {
+    "transaction_id": "chg_TS05A1520260034Hs702401511",
+    "customer_email": "guest@test.com",
+    "amount": "700",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T00:34:17.857Z"
+  },
+  {
+    "transaction_id": "chg_TS06A2420260051Pm4w2401633",
+    "customer_email": "guest@test.com",
+    "amount": "99",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T00:51:29.717Z"
+  },
+  {
+    "transaction_id": "chg_TS06A3620260106Jb762401456",
+    "customer_email": "guest@test.com",
+    "amount": "99",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T01:06:38.746Z"
+  },
+  {
+    "transaction_id": "chg_TS06A4020260114Ms412401200",
+    "customer_email": "guest@test.com",
+    "amount": "88",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T01:14:42.502Z"
+  },
+  {
+    "transaction_id": "chg_TS04A2620260147Tj8s2401671",
+    "customer_email": "guest@test.com",
+    "amount": "400",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T01:47:30.200Z"
+  },
+  {
+    "transaction_id": "chg_TS04A0620260149u7H02401139",
+    "customer_email": "guest@test.com",
+    "amount": "66",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T01:49:08.445Z"
+  },
+  {
+    "transaction_id": "chg_TS06A3420260202Rj672401914",
+    "customer_email": "guest@test.com",
+    "amount": "77",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T02:02:37.356Z"
+  },
+  {
+    "transaction_id": "chg_TS03A3620260202j1Q02401041",
+    "customer_email": "guest@test.com",
+    "amount": "77",
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T02:02:42.490Z",
+    "updated_at": "2026-01-24T02:11:19.225Z"
+  },
+  {
+    "transaction_id": "chg_TS01A2220260411r4TR2401137",
+    "customer_email": "rrrr",
+    "amount": 4,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T04:11:24.421Z"
+  },
+  {
+    "transaction_id": "chg_TS06A0220260414Ls162401041",
+    "customer_email": "roro@iclo",
+    "amount": 11,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T04:14:05.043Z"
+  },
+  {
+    "transaction_id": "chg_TS04A0720260508c1H02401188",
+    "customer_email": "ele",
+    "amount": 40,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:08:12.019Z"
+  },
+  {
+    "transaction_id": "chg_TS01A2920260514Py1g2401733",
+    "customer_email": "lamis@gmail.com",
+    "amount": 409,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:14:32.236Z"
+  },
+  {
+    "transaction_id": "chg_TS02A3620260529a1ZY2401769",
+    "customer_email": "yoyo",
+    "amount": 10,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:29:38.988Z"
+  },
+  {
+    "transaction_id": "chg_TS05A1620260533l0H52401151",
+    "customer_email": "soso@g.com",
+    "amount": 500,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:33:20.578Z"
+  },
+  {
+    "transaction_id": "chg_TS01A5120260537g5KR2401423",
+    "customer_email": "guest@test.com",
+    "amount": 600,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:37:53.734Z"
+  },
+  {
+    "customer_email": "teet",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-24T05:41:52.699Z"
+  },
+  {
+    "transaction_id": "chg_TS02A1320260543Rl512401038",
+    "customer_email": "uo@gail.com",
+    "amount": 22,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "APPLE_PAY",
+    "created_at": "2026-01-24T05:43:18.921Z"
+  },
+  {
+    "transaction_id": "chg_TS06A4520260552t1M82401711",
+    "customer_email": "rororoo",
+    "amount": 77,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T05:52:50.520Z"
+  },
+  {
+    "transaction_id": "chg_TS04A5320260632y8MY2401143",
+    "customer_email": "toto",
+    "amount": 66,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T06:32:56.566Z"
+  },
+  {
+    "transaction_id": "chg_TS02A4820260703y5O42401741",
+    "customer_email": "bebe",
+    "amount": 77,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T07:03:52.282Z"
+  },
+  {
+    "transaction_id": "chg_TS06A1920260714Mb812401684",
+    "customer_email": "yoyoyoyo",
+    "amount": 800,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-24T07:14:22.338Z"
+  },
+  {
+    "transaction_id": "chg_TS03A4520260822x1PX2501939",
+    "customer_email": "rrr@gmial.com",
+    "amount": 22,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-25T08:22:52.823Z"
+  },
+  {
+    "transaction_id": "chg_TS02A1520260836Ho6i2501274",
+    "customer_email": "rrr@gmial.com",
+    "amount": 44,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-25T08:36:17.559Z"
+  },
+  {
+    "transaction_id": "chg_TS03A5620260837Le5q2501973",
+    "customer_email": "rrr@gmial.com",
+    "amount": 66,
+    "currency": "KWD",
+    "status": "INITIATED",
+    "payment_method": "CARD",
+    "created_at": "2026-01-25T08:37:59.377Z"
+  },
+  {
+    "tap_id": "chg_TS03A3920261906Yo8e2501035",
+    "email": "r@gmail.com",
+    "amount": 700,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=3B48997703A4CE61593A2C314141F45C21F6E46BB0BB9084CE1E81C67276C6D7C616D9CCBBA655EA577ED6709389854C",
+    "created_at": "2026-01-25T19:06:41.809Z",
+    "updated_at": "2026-01-25T19:07:11.317Z"
+  },
+  {
+    "tap_id": "chg_TS07A4420261915j5M62501466",
+    "email": "r@gmail.com",
+    "amount": 700,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=7172CAB69CAD90738D94F1157F9A420477CA39124E887B2E067B45E8B3A831E31093D9878A611D786C87B8AE5AC3C6D3",
+    "created_at": "2026-01-25T19:15:46.661Z",
+    "updated_at": "2026-01-25T19:16:06.736Z"
+  },
+  {
+    "tap_id": "chg_TS07A1920261918o1LP2501411",
+    "email": "r@gmail.com",
+    "amount": 1000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=4E95BD987CD270020D9695A6DD5A2C99A43B69372BAE3F799C0EE17853849FAD85FEA9A62BACC235E2D9F17A6BCAF07D",
+    "created_at": "2026-01-25T19:18:21.635Z",
+    "updated_at": "2026-01-25T19:18:39.909Z"
+  },
+  {
+    "tap_id": "chg_TS03A3420261919u0J52501517",
+    "email": "r@gmail.com",
+    "amount": 1000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=9C76538E6FB056CF46F61A48270DA70285C16821839297D8AC011975B9723F5CA688E7DB338EC9C1434BA417966D571B",
+    "created_at": "2026-01-25T19:19:37.102Z",
+    "updated_at": "2026-01-25T19:19:52.784Z"
+  },
+  {
+    "tap_id": "chg_TS02A1320261930Ol652501373",
+    "email": "r@gmail.com",
+    "amount": 900,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=98A7BA8EEE6325D378D0DE99E130DE3A47E7CC21F52F9739BE0BE1E0F6114507C0D9E39CEFA4DD2FFDA6B877079A81E9",
+    "created_at": "2026-01-25T19:30:16.212Z",
+    "updated_at": "2026-01-25T19:30:33.578Z"
+  },
+  {
+    "tap_id": "chg_TS07A5420261937Kl152501305",
+    "email": "r@gmail.com",
+    "amount": 7000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=D56ADDC0BA7E90BB06F48CA876E8F583DE53F3BCDBEDD3B68A8996140D368C78F5FBA72DD559391D8FD0E7257B643752",
+    "created_at": "2026-01-25T19:37:57.254Z",
+    "updated_at": "2026-01-25T19:38:17.660Z"
+  },
+  {
+    "tap_id": "chg_TS02A0520261940Dn4b2501970",
+    "email": "adel@gmail.com",
+    "amount": 12000,
+    "currency": "KWD",
+    "status": "DECLINED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=79AA49E2C4C4B23F9BFB1EF51E88327B0F079AD7D580F25CB91A3CD172D53368D7D4F78486C9768F3B6C82CF36615D0F",
+    "created_at": "2026-01-25T19:40:08.348Z",
+    "updated_at": "2026-01-25T19:40:16.839Z"
+  },
+  {
+    "tap_id": "chg_TS02A5320261941Mw1a2501226",
+    "email": "rana",
+    "amount": 8000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=7DB1E58D3FBABFA71D7B7CBECAF0229F4038E0B274663D4A5090EB86FF283D48A62F94AB4156F366DEB3027358DEA9E4",
+    "created_at": "2026-01-25T19:41:55.505Z",
+    "updated_at": "2026-01-25T19:42:13.986Z"
+  },
+  {
+    "tap_id": "chg_TS06A5020261955k7J42501093",
+    "email": "roro@gmail.com",
+    "amount": 9000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=5BFE93F0273D181BC5365DCACE2001ADC58CD555FE3908B9CB18315E7696B6417270B112459A5C87B81F8940C12BABB1",
+    "created_at": "2026-01-25T19:55:52.570Z",
+    "updated_at": "2026-01-25T19:56:16.370Z"
+  },
+  {
+    "tap_id": "chg_TS03A5320262005m6MO2501244",
+    "email": "Ahmed@gmil.com",
+    "amount": 999,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=EBB87DD3488D1A542C712C38003ED46157F1C0894784362DE0F8D2A8836386316123A1D1FB17CF86265EDCAAA773CD55",
+    "created_at": "2026-01-25T20:05:56.802Z",
+    "updated_at": "2026-01-25T20:06:13.152Z"
+  },
+  {
+    "tap_id": "chg_TS03A5720262020t8N12501883",
+    "email": "mariam@gmail.com",
+    "amount": 800,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=EDC3CD92521B29A6837176EBD84EFC75F9FD05B05682DED3DDCCA37D60AB03F2BF1A3E5871B7BE3BE4DE113DCDC5EDAB",
+    "created_at": "2026-01-25T20:21:00.196Z",
+    "updated_at": "2026-01-25T20:21:20.365Z"
+  },
+  {
+    "tap_id": "chg_TS06A4020262025y5Y82501366",
+    "email": "shereen@gmail.com",
+    "amount": 15000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=06E4C83439A51F33F2D5EB1EFBF6AAD88188D7EDB52FAACD29411FB9B7BA2FC06F99A35A6D3B700C6CC6C9AF5EEAD936",
+    "created_at": "2026-01-25T20:25:45.064Z",
+    "updated_at": "2026-01-25T20:26:03.089Z"
+  },
+  {
+    "tap_id": "chg_TS04A4820262028Om4y2501684",
+    "email": "shereen@gmail.com",
+    "amount": 17000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=F81F7E56F3930151709427CFFA18A10FB495AAD7B449E94F2ED7EACA6EDEC22192051C481C9902B99310ABA2804C096E",
+    "created_at": "2026-01-25T20:28:51.494Z",
+    "updated_at": "2026-01-25T20:29:11.480Z"
+  },
+  {
+    "tap_id": "chg_TS02A0720262034Kn782501628",
+    "email": "shereen@gmail.com",
+    "amount": 80000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=7B152EE40A9A7A5C5E0326B698F6A668B497448062F4FEEF64CFD34C3E783007B17625B178672722AEF7BB163EBF977A",
+    "created_at": "2026-01-25T20:34:10.154Z",
+    "updated_at": "2026-01-25T20:34:27.436Z"
+  },
+  {
+    "tap_id": "chg_TS04A3720262052Og7y2501911",
+    "email": "shereen@gmail.com",
+    "amount": 5555,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=85F5AFFF03C1D7863CEEB5DD1B07AE16827A7B72C47B8181EE9B70C48D8C87E10F6BAEAA2E4189D03C0DAC6A7724D753",
+    "created_at": "2026-01-25T20:52:40.178Z",
+    "updated_at": "2026-01-25T20:52:56.967Z"
+  },
+  {
+    "tap_id": "chg_TS07A4320262055Mb6n2501110",
+    "email": "shereen@gmail.com",
+    "amount": 5000,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=A0974855D5762C1A96F002A610E1466318E69DDDF4B20D2CDAB4D312EA4366E2EDFA901E19F91FE686582DF57ED8BD13",
+    "created_at": "2026-01-25T20:55:45.994Z",
+    "updated_at": "2026-01-25T20:56:00.870Z"
+  },
+  {
+    "tap_id": "chg_TS02A2420262252Hb072501007",
+    "email": "yossef@gmail.com",
+    "amount": 20,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=59C0B594E12FEA402F2E0535DA392FB863FFDFAEE41470B06230E111F2C917013D939A36DFDEA42C57162C95C537FB78",
+    "created_at": "2026-01-25T22:52:26.964Z",
+    "updated_at": "2026-01-25T22:52:46.106Z"
+  },
+  {
+    "tap_id": "chg_TS04A4020262309m8N12501322",
+    "email": "rawanelessawy@gmail.com",
+    "amount": 2222,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=13B6FD43008066C90B5406E2EBE2B0BD2F152D3C9AA1334FF8491DF930CBAA782ACC78C17068A4FC0F9ED435418AC1AD",
+    "created_at": "2026-01-25T23:09:42.660Z",
+    "updated_at": "2026-01-25T23:10:06.907Z"
+  },
+  {
+    "tap_id": "chg_TS06A4620262340Fw112501804",
+    "email": "rawanelessawy@gmail.com",
+    "amount": 400,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "CARD",
+    "transaction_url": "https://acceptance.sandbox.tap.company/gosell/v2/payment/tap_process.aspx?chg_url=41991C76B1C84210D99AF1DF3660A65159DFF140A5DC2651ABDA8299D3AD129C460DA93D5B2C58D04F00A35D2B12FD0D",
+    "created_at": "2026-01-25T23:40:49.155Z",
+    "updated_at": "2026-01-25T23:41:19.084Z"
+  },
+  {
+    "tap_id": "chg_TS05A0120260902i5KB2701987",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T09:02:44.252Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS07A0920260912Yw172701538",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T09:12:41.908Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS02A3820260914t5K82701922",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T09:15:15.243Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS01A1220260918n4K82701625",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T09:18:49.231Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS06A0220260926u1KX2701610",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T09:26:38.856Z",
+    "updated_at": "2026-01-27T12:50:15.598Z"
+  },
+  {
+    "tap_id": "chg_TS05A1820261251Ft142701871",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T12:52:14.404Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS07A4120261941y5KK2701003",
+    "status": "CAPTURED",
+    "created_at": "2026-01-27T19:42:39.961Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS06A2220262001Yc572701418",
+    "status": "CAPTURED",
+    "email": "popo@gmail.com",
+    "amount": 700,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-27T20:02:06.662Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS02A3920262003i1HT2701924",
+    "email": "rere@gmail.com",
+    "amount": 500,
+    "currency": "KWD",
+    "status": "CAPTURED",
+    "payment_method": "MASTERCARD",
+    "transaction_url": null,
+    "created_at": "2026-01-27T20:03:42.438Z",
+    "updated_at": "2026-01-27T20:04:12.094Z"
+  },
+  {
+    "tap_id": "chg_TS05A2820262152b5K62701410",
+    "status": "CAPTURED",
+    "email": "rawan@gmail.com",
+    "amount": 999,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-27T21:53:06.200Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS05A4020262205Kg162701783",
+    "status": "CAPTURED",
+    "email": "rawan@gmail.com",
+    "amount": 9090,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-27T22:06:49.696Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS04A2020262215Mh8p2701606",
+    "status": "CAPTURED",
+    "email": "rawan@gmail.com",
+    "amount": 1234,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-27T22:15:50.638Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_TS06A2820261124Ok712801954",
+    "status": "CAPTURED",
+    "email": "roro@gmail.com",
+    "amount": 300,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-28T11:25:25.042Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV02H5020261723n0T72801382",
+    "status": "CAPTURED",
+    "email": "test@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-01-28T14:26:02.635Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV06H2920261711c7D40102087",
+    "status": "CANCELLED",
+    "email": "test@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:16:32.557Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV07H3520261717Bx7j0102829",
+    "status": "DECLINED",
+    "email": "test@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:18:35.850Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV03H2420261722Bp460102014",
+    "status": "DECLINED",
+    "email": "rawann@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:23:25.938Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV05H1120261731Mo050102866",
+    "status": "CAPTURED",
+    "email": "rana@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:32:40.028Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV04H2520261736k7M40102563",
+    "status": "CAPTURED",
+    "email": "rawann@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:37:51.787Z",
+    "updated_at": null
+  },
+  {
+    "tap_id": "chg_LV06H4020261743m5RM0102530",
+    "status": "CAPTURED",
+    "email": "Donny@gmail.com",
+    "amount": 0.1,
+    "currency": "KWD",
+    "payment_method": "KNET",
+    "transaction_url": null,
+    "created_at": "2026-02-01T14:45:11.513Z",
+    "updated_at": null
+  }
+]
