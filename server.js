@@ -55,6 +55,8 @@ console.log("MARKETPLACE_SECRET_KEY =", process.env.MARKETPLACE_SECRET_KEY);
 const MARKETPLACE_SECRET_TEST_KEY = process.env.MARKETPLACE_SECRET_TEST_KEY;
 console.log("MARKETPLACE_SECRET_TEST_KEY =", process.env.MARKETPLACE_SECRET_TEST_KEY);
 
+const TAP_TEST_SECRET_KEY = process.env.TAP_TEST_SECRET_KEY;
+console.log("TAP_TEST_SECRET_KEY =", process.env.TAP_TEST_SECRET_KEY);
 
 const customersFile = path.join(__dirname, "customers.json");
 const transactionsFile = path.join(__dirname, "transactions.json");
