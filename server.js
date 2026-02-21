@@ -301,6 +301,11 @@ saveCustomer({
 
     const charge = await tapRes.json();
 
+    if (!tapRes.ok) {
+  console.log("Tap error:", charge);
+  return res.status(400).json(charge);
+}
+
       saveUpdateTransaction({ //still INITIATED
     tap_id: charge.id,
     email,
