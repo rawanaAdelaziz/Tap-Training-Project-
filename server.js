@@ -7,6 +7,13 @@ const multer = require("multer");
 const FormData = require("form-data");
 const fetch = require("node-fetch");
 
+
+//uploads file
+const uploadDir = path.join(__dirname, "uploads");
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "uploads/"); 
@@ -19,6 +26,7 @@ const storage = multer.diskStorage({
   },
 });
 
+
 // multer instance
 const upload = multer({ storage });
 
@@ -27,6 +35,8 @@ const upload = multer({ storage });
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+
 
 app.get("/", (req, res) => {
   res.send("Backend is working....");
