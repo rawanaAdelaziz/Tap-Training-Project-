@@ -28,6 +28,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Backend is working....");
+});
+
 const TAP_SECRET_KEY = process.env.TAP_SECRET_KEY;
 console.log("TAP_SECRET_KEY =", process.env.TAP_SECRET_KEY);
 const TAP_PLATFORM_SECRET_KEY = process.env.TAP_PLATFORM_SECRET_KEY
