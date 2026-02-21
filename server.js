@@ -258,6 +258,8 @@ app.post("/pay/card", async (req, res) => {
       currency,
     } = req.body;
 
+      console.log("TOKEN RECEIVED:", tokenId);
+      
     if (!tokenId) {
       return res.status(400).json({ error: "Missing tokenId" });
     }
