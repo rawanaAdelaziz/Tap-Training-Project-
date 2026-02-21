@@ -376,7 +376,7 @@ function saveKfastAgreement(charge) {
   }
 }
 
-//Payment Status
+//Payment Status LIVEE
 app.get("/payment/status", async (req, res) => {
   try {
     const { tap_id } = req.query;
@@ -390,7 +390,7 @@ app.get("/payment/status", async (req, res) => {
       {
         method: "GET",
         headers: {
-          Authorization: `Bearer ${process.env.TAP_SECRET_KEY}`,
+          Authorization: `Bearer ${process.env.TAP_TEST_SECRET_KEY}`,
           "Content-Type": "application/json",
         },
       }
