@@ -259,7 +259,7 @@ app.post("/pay/card", async (req, res) => {
     } = req.body;
 
       console.log("TOKEN RECEIVED:", tokenId);
-      
+
     if (!tokenId) {
       return res.status(400).json({ error: "Missing tokenId" });
     }
@@ -296,7 +296,7 @@ saveCustomer({
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.TAP_SECRET_KEY}`
+        Authorization: `Bearer ${process.env.TAP_TEST_SECRET_KEY}`
       },
       body: JSON.stringify(payload)
     });
