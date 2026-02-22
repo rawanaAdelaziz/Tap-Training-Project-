@@ -260,6 +260,15 @@ app.post("/pay/card", async (req, res) => {
       currency,
     } = req.body;
 
+
+    // Marketplace newwwww========
+if (fromMarketplace) {
+  payload.from_marketplace = true;
+  payload.mp_selected_products = JSON.parse(localStorage.getItem("mp_selected_products") || "[]");
+  payload.mp_vendor_commission = JSON.parse(localStorage.getItem("mp_vendor_commission") || "{}");
+}
+
+
       console.log("TOKEN RECEIVED:", tokenId);
 
     if (!tokenId) {
@@ -376,7 +385,99 @@ function saveKfastAgreement(charge) {
   }
 }
 
-//Payment Status LIVEE
+// //Payment Status for KNET & KFAST using the TAP_SECRET_KEY LIVE   
+// app.get("/payment/status/KNET", async (req, res) => {
+//   try {
+//     const { tap_id } = req.query;
+
+//     if (!tap_id || tap_id === "undefined") {
+//       return res.status(400).json({ error: "Missing tap_id" });
+//     }
+
+//     const tapRes = await fetch(
+//       `https://api.tap.company/v2/charges/${tap_id}`,
+//       {
+//         method: "GET",
+//         headers: {
+//           Authorization: `Bearer ${process.env.TAP_SECRET_KEY}`,
+//           "Content-Type": "application/json",
+//         },
+//       }
+//     );
+
+//     if (!tapRes.ok) {
+//   const errText = await tapRes.text();
+//   return res.status(200).json({
+//     status: "PENDING",
+//     message: "Charge not ready yet",
+//     details: errText,
+//   });
+// }
+
+
+//     const charge = await tapRes.json();
+
+//     console.log("-------FULL CHARGE FROM TAP AFFTER /payment/status:-------", JSON.stringify(charge, null, 2));
+
+// saveUpdateTransaction({
+//   tap_id: charge.id,
+//   status: charge.status,
+//   email: charge.customer?.email || null,
+//   amount: charge.amount,
+//   currency: charge.currency,
+//   payment_method:
+//     charge.source?.payment_method || charge.source?.type || null,
+//   transaction_url: charge.transaction?.url || null
+// });
+
+  
+
+// //for card 
+//   if (charge.status === "CAPTURED" && charge.card) {
+  
+//     saveTapCard({
+//     email: charge.customer.email,
+//     card_id: charge.card.id,
+//     brand: charge.card.brand,
+//     last4: charge.card.last_four,
+//     exp_month: charge.card.expiry.month,
+//     exp_year: charge.card.expiry.year
+//   });
+//   }
+// //for KFAST
+// if (charge.status === "CAPTURED" && charge.payment_agreement?.id) {
+//   const email = charge.metadata?.email || charge.customer?.email || null;
+//  saveKfastAgreement(charge);
+//   // saveKfastAgreement({
+//   //   agreement_id: charge.payment_agreement.id,
+//   //   first_name,///
+//   //   email:charge.metadata?.email
+//   // });
+// }
+
+
+
+//     return res.status(200).json({
+//       id: charge.id,
+//       status: charge.status,
+//       amount: charge.amount,
+//       currency: charge.currency,
+//       transaction_url: charge.transaction?.url || null,
+//       redirect_url:
+//         charge.redirect?.url || charge.transaction?.url || null,
+//       payment_method:
+//         charge.source?.payment_method || charge.source?.type || null,
+//     });
+//   } catch (err) {
+//     console.error("❌ /payment/status error:", err);
+//     return res.status(500).json({
+//       error: "Failed to fetch payment status",
+//     });
+//   }
+// });
+
+
+//Payment Status for card using the TAP_TEST_SECRET_KEY TEST
 app.get("/payment/status", async (req, res) => {
   try {
     const { tap_id } = req.query;
@@ -390,7 +491,7 @@ app.get("/payment/status", async (req, res) => {
       {
         method: "GET",
         headers: {
-          Authorization: `Bearer ${process.env.TAP_TEST_SECRET_KEY}`,
+          Authorization: `Bearer ${process.env.TAP_TEST_SECRET_KEY }`,
           "Content-Type": "application/json",
         },
       }
