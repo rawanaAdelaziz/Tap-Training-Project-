@@ -261,12 +261,12 @@ app.post("/pay/card", async (req, res) => {
     } = req.body;
 
 
-    // Marketplace newwwww========
-if (fromMarketplace) {
-  payload.from_marketplace = true;
-  payload.mp_selected_products = JSON.parse(localStorage.getItem("mp_selected_products") || "[]");
-  payload.mp_vendor_commission = JSON.parse(localStorage.getItem("mp_vendor_commission") || "{}");
-}
+//     // Marketplace newwwww========
+// if (fromMarketplace) {
+//   payload.from_marketplace = true;
+//   payload.mp_selected_products = JSON.parse(localStorage.getItem("mp_selected_products") || "[]");
+//   payload.mp_vendor_commission = JSON.parse(localStorage.getItem("mp_vendor_commission") || "{}");
+// }
 
 
       console.log("TOKEN RECEIVED:", tokenId);
